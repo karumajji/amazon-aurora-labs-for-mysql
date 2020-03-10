@@ -4,7 +4,7 @@ For the sake of time, in the previous CloudFormation scripts, we have automatica
 
 ## Definitions
 
-??? tip "Amazon Aurora Global Database"
+??? tip "Amazon Aurora Global Databases"
     An Amazon Aurora Global Database consists of one primary AWS Region where your data is mastered by the Primary Aurora DB cluster's Primary DB Instance for read and write operations, and one (or more) secondary AWS Region(s) where data is replicated to with typical latency of under a second. Applications with a worldwide footprint can use reader instances in the secondary AWS Region for low latency reads. In the unlikely event your database becomes degraded or isolated in the primary AWS region, you can promote the secondary AWS Region to take full read-write workloads in under a minute.
 
 ??? tip "Amazon Aurora DB Cluster"
